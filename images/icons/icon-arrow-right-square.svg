@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 13 13">
+  <g id="icon-arrow-right-rectangle" transform="translate(-78)">
+    <rect id="arrow-rt-rect" width="13" height="13" transform="translate(77)" fill="none"></rect>
+    <path id="arrow-rect-pointrt" data-name="arrow-rect-pointrt" d="M1.6,7.15H7.656L6.232,8.574,7.355,9.7,9.574,7.479a1.589,1.589,0,0,0,0-2.247L7.349,3.008,6.225,4.131l1.43,1.43H1.6ZM10.858,0h-9A1.869,1.869,0,0,0,0,1.881v2.3H1.589v-2.3a.279.279,0,0,1,.264-.292h9a.279.279,0,0,1,.265.29V10.83a.279.279,0,0,1-.265.29h-9a.279.279,0,0,1-.265-.29v-2.3H0v2.3a1.869,1.869,0,0,0,1.854,1.879h9a1.869,1.869,0,0,0,1.854-1.881V1.881A1.869,1.869,0,0,0,10.858,0" transform="translate(78 0.25)" fill="#8e0f0f"></path>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* For sample grid only*/
+.grid div {
+  border: 1px solid #eee;
+}
+.logo-section {
+  color: #bbb;
+}
+.main-wrapper {
+  background-color: rgba(222, 222, 2, 0.1);
+}
+.sidebar-vertical-left {
+  background: rgba(250, 136, 87, 0.35);
+  color: #c24813;
+}
+.sidebar-vertical-right {
+  background: rgba(250, 136, 87, 0.25);
+  color: #fff;
+}
+.gridareaLt-wide {
+  background: #a88532;
+  color: #fff;
+}
+.gridareaRt-wide {
+  background: #32a894;
+  color: #fff;
+}
+.gridareaLt {
+  align-self: center;
+  color: #666;
+  background: rgba(247, 219, 153, 0.3);
+}
+.gridareaRt {
+  background: rgba(196, 245, 237, 0.4);
+  color: #666;
+}
+.main-col6,
+.main-col7 {
+}
+.contact-info-bottom {
+  background: rgba(55, 125, 100, 0.2);
+}
+/* TOG is for menu toggle with 2 location choices */
+.tog,
+.tog2,
+.alert,
+.nav-section {
+  color: #bbb;
+}
+/* Unused classes for you to style*/
+.wrapper-left-right {
+}
+.main-col1,
+.main-col2,
+.main-col3,
+.main-col4,
+.main-col5,
+.main-col6,
+.main-col7 {
+}
+/* Match brand colors for global styles. You can also use nth child such as .wrapper-grid div:nth-child(2) for the second div in the wrapper*/
+.grid div {border:1px solid #eee}
+.logo-section {padding-top: 1rem; color: #bbb}
+.main-wrapper {background-color: rgba(222,222,2,.1)}
+.sidebar-vertical-left {background:rgba(250, 136, 87,.35); color: #c24813; padding-top: 1.5rem}
+.sidebar-vertical-right {background:rgba(250, 136, 87,.15); color: #fff; padding-top: 1.5rem}
+.gridareaLt-wide {background: #a88532; color:#fff; padding-top: 3rem .75rem .75rem; margin-top: 6rem}
+.gridareaRt-wide {background: #32a894; color: #fff; padding: .75rem;  margin-top: 7rem}
+.gridareaLt {align-self: center; color: #666; background: rgba(247, 219, 153,.3)}
+.gridareaRt {background: rgba(196, 245, 237,.4); color: #666; padding-top: 1.75rem}
+.main-col6, .main-col7 {}
+.contact-info-bottom {background: rgba(55,125,100,.2)}
+/* TOG is for menu toggle with 2 location choices */
+.tog,.tog2, .alert, .nav-section {color: #bbb}
+
+/* Padding is only there so you can see the names of the area.*/
+.logo-section {
+  padding-top: 1rem;
+}
+.sidebar-vertical-left {
+  padding-top: 1.5rem;
+}
+.sidebar-vertical-right {
+  padding-top: 1.5rem;
+}
+.gridareaLt-wide {
+  padding: 2rem 0.75rem 0.75rem;
+  margin-top: 5rem;
+}
+.gridareaRt-wide {
+  padding: 0.75rem;
+  margin-top: 5rem;
+}

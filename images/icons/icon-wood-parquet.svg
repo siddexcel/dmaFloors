@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icon-parquet" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+  <rect id="_41" data-name="41" x="2.8" y="5.6" width="59.2" height="53" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_40" data-name="40" points="14.7 19.3 10.3 23.7 2.8 31.2 2.8 22.4 10.3 14.9 14.7 19.3" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_39" data-name="39" x="13.9" y="19.6" width="6.2" height="12.9" transform="translate(-13.4 19.7) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_38" data-name="38" points="14.7 28.1 2.8 40.1 2.8 31.2 10.3 23.7 14.7 28.1" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_37" data-name="37" x="13.9" y="28.4" width="6.2" height="12.9" transform="translate(-19.7 22.3) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_36" data-name="36" points="14.7 36.9 10.3 41.4 2.8 48.9 2.8 40 10.3 32.5 14.7 36.9" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_35" data-name="35" x="13.9" y="37.3" width="6.2" height="12.9" transform="translate(-25.9 24.9) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_34" data-name="34" points="14.7 45.8 10.3 50.2 2.8 57.7 2.8 48.9 10.3 41.4 14.7 45.8" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_33" data-name="33" points="23.8 54.9 20.1 58.6 18.7 58.6 18.7 58.6 14.7 54.6 10.3 50.2 14.7 45.8 19.4 50.5 23.8 54.9" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_32" data-name="32" points="14.7 54.6 10.7 58.6 2.8 58.6 2.8 57.7 10.3 50.2 14.7 54.6" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_31" data-name="31" points="18.7 58.6 10.7 58.6 14.7 54.6 18.7 58.6" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_30" data-name="30" x="19" y="16.8" width="17.6" height="6.2" transform="translate(-6 25.5) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_29" data-name="29" x="35.5" y="16.3" width="6.2" height="12.9" transform="translate(-4.8 33.9) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_28" data-name="28" points="14.7 10.4 10.3 14.9 2.8 22.4 2.8 13.5 10.3 6 14.7 10.4" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_27" data-name="27" x="13.9" y="10.8" width="6.2" height="12.9" transform="translate(-7.2 17.1) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_26" data-name="26" points="23.8 10.7 19.4 15.1 10.3 6 10.7 5.6 18.7 5.6 23.8 10.7" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_25" data-name="25" points="36.2 7.1 23.8 19.5 19.4 15.1 23.8 10.7 28.9 5.6 34.7 5.6 36.2 7.1" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_24" data-name="24" x="35.5" y="7.4" width="6.2" height="12.9" transform="translate(1.5 31.4) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_23" data-name="23" x="19" y="25.7" width="17.6" height="6.2" transform="translate(-12.2 28.1) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_22" data-name="22" x="35.5" y="25.1" width="6.2" height="12.9" transform="translate(-11 36.5) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_21" data-name="21" x="19" y="34.5" width="17.6" height="6.2" transform="translate(-18.5 30.7) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_20" data-name="20" x="35.5" y="33.9" width="6.2" height="12.9" transform="translate(-17.3 39.1) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_19" data-name="19" x="19" y="43.3" width="17.6" height="6.2" transform="translate(-24.7 33.3) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_18" data-name="18" x="35.5" y="42.8" width="6.2" height="12.9" transform="translate(-23.5 41.7) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_17" data-name="17" x="40.6" y="13.5" width="17.6" height="6.2" transform="translate(2.7 39.8) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_16" data-name="16" points="62 16.9 62 25.7 53.4 17.1 57.8 12.6 62 16.9" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_15" data-name="15" x="40.6" y="22.4" width="17.6" height="6.2" transform="translate(-3.6 42.4) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_14" data-name="14" points="62 25.7 62 34.5 53.4 25.9 57.8 21.5 62 25.7" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_13" data-name="13" points="47.2 5.6 45.4 7.4 43.6 5.6 47.2 5.6" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_12" data-name="12" points="62 5.6 62 8 59.6 5.6 62 5.6" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_11" data-name="11" points="56 5.6 53.4 8.2 45.4 16.2 40.9 11.8 45.4 7.4 47.1 5.6 56 5.6" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_10" data-name="10" points="62 8 62 16.9 57.8 12.6 53.4 8.2 56 5.6 59.6 5.6 62 8" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_9" data-name="9" x="40.6" y="31.2" width="17.6" height="6.2" transform="translate(-9.8 45) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_8" data-name="8" points="62 34.5 62 43.4 57.8 39.1 53.4 34.7 57.8 30.3 62 34.5" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="_7" data-name="7" x="40.6" y="40" width="17.6" height="6.2" transform="translate(-16.1 47.5) rotate(-45)" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_6" data-name="6" points="62 43.4 62 52.2 53.4 43.6 57.8 39.1 62 43.4" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_5" data-name="5" points="36.2 51.3 31.8 55.7 28.9 58.6 20.1 58.6 31.8 46.9 36.2 51.3" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_4" data-name="4" points="43.6 58.6 34.7 58.6 31.8 55.7 36.2 51.3 40.9 56 40.9 56 43.6 58.6" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_3" data-name="3" points="57.8 48 53.4 52.4 47.2 58.6 43.6 58.6 40.9 56 53.4 43.6 57.8 48" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polygon id="_2" data-name="2" points="62 52.2 62 58.6 59.6 58.6 53.4 52.4 57.8 48 62 52.2" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polyline id="_1" data-name="1" points="56 58.6 47.2 58.6 53.4 52.4 57.8 56.8" fill="#fff" stroke="#3f3f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

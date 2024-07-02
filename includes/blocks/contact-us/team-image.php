@@ -1,0 +1,1 @@
+<div class="phone-fax"  img src="team.jpg" alt="" style="width: 200px; height: 200px;" >TEAM IMAGE</div>

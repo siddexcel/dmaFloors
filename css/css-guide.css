@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Below shows the classes used in the grid framework. Use the css file that aligns with your category (i.e. markets). Add the body id for 1 page only or body class to style an entire category (ie markets). You can also use nth child such as .wrapper-grid div:nth-child(2) for the second div in the wrapper*/
+.grid {display: grid}
+.grid div {}
+.logo-section {}
+.main-wrapper {}
+.sidebar-vertical-left {}
+.sidebar-vertical-right {}
+.gridareaLt-wide {}
+.gridareaRt-wide {}
+.gridareaLt {}
+.gridareaRt {}
+.contact-info-bottom {}
+.wrapper-left-right {}
+.main-col1,.main-col2,.main-col3,.main-col4,.main-col5,.main-col6,.main-col7 {}
+.main-col1, .main-col2, .main-col3, .main-col4, .main-col5, .main-col6, .main-col7 {}
+/* TOG is for menu toggle with 2 location choices. We are using .tog for the mobile menu. */
+.tog,.tog2,.alert,.nav-section {}
+/* Alert is for a special notice like school closings due to weather. */
+.alert {display:none}
+
+/* Color Palette in RGB so we can code content with opacity levels using RGBA. Most css rules are from https://chir.ag/projects/name-that-color */
+.offwhite {color: rgb(242,238,233)}
+.bluemine {color: rgb(27, 96, 130)}
+.copper {color: rgb(166, 117, 56)}
+.twine {color: rgb(191, 150, 99)}
+.grenadier-red {color: rgb(217, 61, 4)}
+.dma-red-oxide {color: rgb(115, 2, 2)}

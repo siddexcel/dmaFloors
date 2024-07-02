@@ -1,0 +1,454 @@
+/*------- General Styles --------------*/
+*, *:after, *:before {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em, ins, kbd,q,s, samp,small,strike, strong, sub, sup,tt,var, fieldset,form, label, legend,table, caption, tbody, tfoot, thead, tr,th,td {border:0;margin:0; padding:0; transition: all 0.3s ease-out}
+details,figcaption {display:block}
+html,body {font-family: "PT Sans", sans-serif; font-weight:400; color:#171616; background-color:#fff}
+body {width: 100%; height: 95vh; height: 100dvh;  font-size: 16px; text-align:left; overflow-x:hidden;  animation: fadeInAnimation ease 3s
+    animation-iteration-count: 1; animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+body.hidden {opacity:0}
+
+/* overflow */
+svg {overflow:visible}
+.noscroll {overflow:hidden}
+/* global template based on css grid */
+	
+/* START STRICTURE OF CSS GRID */
+/* I use the grid class to indicate where display:grid is located, which is helpful when the design gets more complex with subgrids or nested grids. Alert is saved for popup notifications to be developed*/
+.grid {display: grid}
+.alert {display: none}
+
+/* Breakpoints */
+@media all and (min-width: 768px){}
+@media all and (min-width: 768px) and (orientation: landscape) {}
+
+/* Breakpoint for tablet landscape */
+@media (min-width: 1024px) {
+.header-full-width {display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 0}
+header.grid {grid-template-columns: repeat(3, 1fr); gap: .8rem; grid-auto-rows: minmax(10%, auto)}
+.main-wrapper {grid-template-columns: repeat(3, 1fr); gap: 1rem; grid-auto-rows: minmax(1rem, auto)}
+}
+/* Breakpoint */
+@media (min-width: 1280px) {
+  .logo-section {grid-area: 1 / 1 / 2 / 2}
+  .tog {grid-area: 1 / 7 / 2 / 8}
+  .tog2 {grid-area: 4 / 7 / 5 / 8}
+  .alert {grid-area: 2 / 7 / 4 / 8}
+  .header-full-width {grid-area: 1 / 1 / 2 / 8}
+  .nav-section {grid-area: 1 / 2 / 2 / 7}
+  .sidebar-vertical-left {grid-area: 1 / 1 / 6 / 2}
+   .content-center {grid-area: 1 / 6 / 8 / 2}
+  .sidebar-vertical-right {grid-area: 1 / 6 / 6 / 8}
+  .gridareaLt-wide {grid-area: 1 / 1 / 4 / 5}
+  .gridareaRt-wide {grid-area: 1 / 3 / 4 / 8}
+  .gridareaLt {grid-area: 1 / 1 / 4 / 4}
+  .gridareaRt {grid-area: 1 / 4 / 4 / 8}
+  .main-wrapper,  .wrapper-columns,  .wrapper-left-right {grid-area: 2 / 1 / 6 / 8}
+  .wrapper-columns {grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0}
+  .footer-section {grid-area: 4 / 1 / 5 / 8}
+  .contact-info-bottom {grid-area: 4 / 4 / 5 / 8}
+}
+@media (min-width: 1366px){}
+@media (min-width: 1980px){}
+
+/* Global headers and paragraph and lists */
+h1,h2,h3,h4,h5,h6{font-weight:600; color: rgb(23, 22, 22); margin-bottom:0.625rem}
+/*h1{color: #f6f5f5; font-size:2.55rem; font-size:min(max(1.8rem, 2.5vw), 2.55rem); font-size:clamp(1.8rem,2.5vw,2.55rem); line-height:1.75}*/
+h1{font-size:2.45rem; font-size:min(max(1.5rem, 1.875rem), 2.45rem); font-size:clamp(1.5rem,1.875rem,2.45rem); line-height:2.7rem}
+h2 {color:#62d789; font-size:1.875rem; font-size:min(max(1.35rem, 1.5625rem), 1.875rem); font-size:clamp(1.35rem,1.5625rem,2.25rem); line-height:1.5; margin-right: 2em;}
+button{font-size:1.875rem; font-size:min(max(1.35rem, 1.5625vw), 1.875rem); font-size:clamp(1.35rem,1.5625rem,2.25rem); line-height:1.5;}
+h3, .subhdr {color: rgb(115, 2, 2); font-size:1.85rem; font-size:min(max(1.15rem, 1.55rem), 1.85rem); font-size:clamp(1.15rem,1.55rem,1.55rem); line-height:1.35;}
+.subhdr {color: rgba(255,255,255,.90); margin-bottom: 0.75rem; padding-left: 1.05rem;}
+h4{font-size:1.125rem; line-height:1.15;}
+h5{font-size:0.875rem; line-height:1.125}
+p, h6 {font-size: 1rem; font-size:min(max(1rem, 1.15rem), 1.2rem); font-size:clamp(1rem, 1.15rem, 1.2rem); margin-bottom:1rem; font-weight:500; line-height:1.7rem}
+p.intro a {font-weight: 600}
+
+/* Color Palette in RGB so you can code your content with opacity levels using RGBA. Most css rules are from https://chir.ag/projects/name-that-color */
+.offwhite {color: rgb(242,238,233)}
+.bluemine {color: rgb(27, 96, 130)}
+.copper {color: rgb(166, 117, 56)}
+.twine {color: rgb(191, 150, 99)}
+.grenadier-red {color: rgb(217, 61, 4)}
+.dma-red-oxide {color: rgb(115, 2, 2)}
+.cod-gray {color: rgb(23, 22, 22)}
+
+/* standard default global rules*/
+a {transition:all .5s ease-in; text-decoration:none; color: #A67538; outline:0}
+a:hover,a:active {outline:0; color: #1B6082; text-decoration:none}
+audio{max-width:100%}
+address{font-style:italic;margin-bottom:1.5rem}
+abbr[title]{border-bottom:1px dotted #2b2b2b;cursor:help}
+b,strong{font-weight:700;}
+cite,dfn,em,i{font-style:italic}
+code,kbd,tt,var,samp,pre{font-family:monospace,serif;font-size:.9375rem;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;line-height:1.6}
+blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}
+blockquote{color:#62d789; font-size:1.125rem;font-style:italic;font-weight:300;line-height:1.875rem;margin-bottom:1.5rem;font-family:Georgia,"Times New Roman",Times,serif;border-left:2px #ddd solid;padding:1.25rem 1.25rem 1.25rem 2.5rem;letter-spacing:.01em}
+blockquote span{display:block;margin-top:1.25rem;font-weight:400;font-size:.75rem;font-style:normal; color:#fff}
+blockquote cite,blockquote small{color:#2b2b2b;font-size:1rem;font-weight:400;line-height:1.5}
+blockquote em,blockquote i,blockquote cite{font-style:normal}
+blockquote strong,blockquote b{font-weight:400}
+.center, center {text-align:center; margin-left: auto; margin-right: auto}
+figure{margin:0;position:relative;display:block}
+figure img{width:100%}
+.full img{width:100vw}
+figcaption{background-color:rgba(0,0,0,1);bottom:25px;color:#fff;font-weight:400;font-size:0.75rem;padding:0.625rem 1.25rem;position:absolute;right:25px;border-radius:3px}
+fieldset{border:1px solid rgba(0,0,0,0.1);margin:0 0 1.5rem;padding:0}
+hr{border:0;height:1.25rem;width:100%;float:none;margin:0;display:inline-block}
+hr.small{height:1.25rem}
+hr:after{clear:both;content:" "; display:block; height:0; visibility:hidden}
+::selection{background:#0f1010;color:#333;text-shadow:none}
+::-moz-selection{background:#0f1010;color:#333;text-shadow:none}
+img{border:0 none;width:100%;vertical-align:middle; height: auto}
+.inline, h2.inline {display:inline-block; width: auto}
+.left {float:left; margin: 0.2rem 0.5rem 0}
+legend{white-space:normal}
+pre{border:1px solid rgba(0,0,0,0.1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-bottom:1.5rem;max-width:100%;overflow:auto;padding:0.75rem;white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+sup,sub{font-size:0.625rem;height:0;line-height:0;position:relative;vertical-align:baseline}
+sup{bottom:1}
+sub{top:.5}
+svg {overflow:visible}
+ul,ol{list-style:none; margin:0 0 1.5rem 1.25rem}
+ul{list-style:disc}
+ol{list-style:decimal}
+li > ul,li > ol {margin:0 0 0 1.25rem}
+
+/* svg icons */
+.tbd {width: .75em; height: .75em !important; vertical-align: -.1em;}
+.tbd {width: 1em; height: 1em !important;   vertical-align: -.125em;}
+.tbd {width: 1.25em; height: 1.25em !important; vertical-align: -.15em;}
+
+/* ----------- template specific global rules ------------ */
+.arrow {border: solid black; border-width: 0 3px 3px 0; display: inline-block;  padding: 3px;}
+.arrow.right {-webkit-transform: rotate(-45deg); transform: rotate(-45deg)}
+.arrow.left {-webkit-transform: rotate(135deg); transform: rotate(135deg)}
+.arrow.up {-webkit-transform: rotate(-135deg); transform: rotate(-135deg)}
+.arrow.down {-webkit-transform: rotate(45deg); transform: rotate(45deg)}
+.hidden {opacity: 0;display: none}
+.offcanvas {position: absolute; top: 2vh; left: -800px;}
+.narrow-wrapper {width: 90%; margin: 0 auto}
+.phone-fax {flex-flow: row; font-size: 1.2rem; font-weight: 500; line-height: 1.5rem; letter-spacing: .07rem;  text-align:right; margin: 1.5rem 1.25rem .5rem 0; white-space: nowrap}
+.flex {display: flex;}
+.flex-wrapper {display:flex; flex-flow: column wrap; justify-content: space-between; align-items: flex-start; gap: 1%; margin-bottom: 5rem; height: auto}
+.tablet-only, .desktop-only, .over-1024px, .mobile-devices {display:none; visibility:hidden}
+@media all and (max-width: 1024px) {
+	.mobile-devices {display:block; visibility:visible}
+}
+@media all and (min-width: 768px){
+	.phone-only, .desktop-only {display:none; visibility:hidden}
+	.tablet-only {display:block; visibility:visible}
+	.flex-wrapper {flex-flow: row wrap;}
+	.offcanvas {top: 4vh;}
+	.phone-fax {font-size: 1.1rem}
+}
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 767px)
+  and (orientation: portrait) {
+	  .phone-fax {font-size: 1.1rem}
+}
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 896px)
+  and (orientation: portrait) {
+	  .phone-fax {}
+}
+@media all and (min-width: 920px){
+.narrow-wrapper {width: 56%}
+}
+@media all and (min-width: 1024px){
+	.mobile, .tablet-only {display:none; visibility:hidden}
+	.desktop-only, .over-1024px {display:block; visibility:visible}
+	header {flex-flow: row wrap;}
+	#main-logo {}
+	#main-logo, #main-logo svg {min-width: 170px;  max-width: 210px}
+	#main-logo svg {margin-top: 1rem}
+	.navbar-nav {flex: 3; margin-left: 1.5rem}
+	.d-flex {display: flex;}
+	.offcanvas {top: 5vh;}
+	p, h6 {line-height: 1.9rem}
+	.phone-fax {margin: 1.5rem 2.25rem .5rem 0}
+	main, aside {margin-bottom: 5rem}
+}
+
+@media all and (min-width: 1366px){
+.narrow-wrapper {width: 65%}
+}
+@media all and (min-width: 1980px){
+	.narrow-wrapper {width: 45%}
+}
+/* Keep this here for later application of all flex rules
+.main {flex: 2 1 100%; padding: 1rem 2rem;}
+.sidebar  {flex: 1 2 20%; padding: 1rem 2rem 1rem 0}
+
+@media all and (min-width: 768px){
+.main {flex: 2 1 55%; }
+.sidebar  {flex: 1 2 45%; }
+.main > * {flex: 2 1 auto;}
+}*/
+
+/* footer */
+#counter-wrap {position:relative;width:1.25rem;margin:0;text-align:center;bottom:0;display:inline-block;height:2.5rem;line-height:2.5rem;float:left;color:#000;font-size:0.75rem;font-weight:600}
+#counter-wrap span:first-child{opacity:1}
+#counter-wrap span{position:absolute;left:0;top:0;opacity:0}
+#counter-wrap::before{position:absolute;width:1.25rem;top:0;left:100px;content:attr(data-hover)}
+#counter-wrap:after{width:2.5rem;height:1px;position:absolute;content:"";background-color:rgba(0,0,0,0.2);left:2.5rem;bottom:1.25rem;-webkit-transition:opacity .2s ease-in-out .2s;transition:opacity .2s ease-in-out .2s}
+#green-ground {position: absolute;width: 100%;top: 90%;}
+@media only screen and (min-width: 500px) {
+#footer-container{padding:0 2.5rem;margin:0.625rem auto;min-height:2.5rem;height:auto}
+}
+@media all and (min-width: 768px){
+#footer-container{padding:0 2.5rem;margin:0.625rem auto;min-height:2.5rem;height:auto}
+.green-ground {top:92%;}
+}
+/* copyright */
+.copyright-wrap {box-sizing:border-box;pointer-events:initial;transition:all .2s cubic-bezier(0.215,0.61,0.355,1) 0}
+.copyright-wrap:hover{-webkit-transform:translateY(-3.125rem);transform:translateY(-3.125rem)}
+.copyright-text {float:left;font-size:0.75rem;font-weight:600; line-height:2.5rem}
+.copyright-icon {float:left;width:1.875rem;height:2.5rem;font-size:0.75rem;line-height:2.5rem;text-align:left;margin-right:0;transform:scale(1);transition:all .2s cubic-bezier(0.215,0.61,0.355,1) 0}
+.copyright-icon i{font-size:13px}
+.copyright-wrap:hover .copyright-icon {transform:scale(0);width:0;margin:0;overflow:hidden}
+.copyright-icon:after,.copyright-text:after{content:"";clear:both;display:table}
+.copyright{height:auto;line-height:1.875rem;position:relative;width:auto;margin:0 auto;margin-top:0.625rem;text-align:center;bottom:0;display:table}
+.copyright-wrap .copyright{display:inline-block;width:100%;text-align:left}
+.copyright p {color:#000;font-size:0.75rem;font-weight:600;margin-bottom:0;line-height:1.875rem;box-sizing:border-box;padding-top:5px;position:relative;height:2.5rem;float:left;-webkit-transition:background .4s ease-in-out 0;transition:background .4s ease-in-out 0}
+.copyright-wrap .copyright p {opacity:0;-webkit-transform:translateY(0.625rem);transform:translateY(0.625rem);transition:all .2s cubic-bezier(0.215,0.61,0.355,1) 0}
+.copyright-wrap:hover .copyright p {transition:all .2s cubic-bezier(0.215,0.61,0.355,1) .1s;opacity:1;-webkit-transform:translateY(0px);transform:translateY(0px)}
+.hidden, .copyright-xl4u.hidden, privacy-xl4u.hidden {opacity: 0;}
+
+/* social media */
+.socials-wraps {position:fixed;  bottom:0; width: 100vw; background: rgba(0,0,0,0.80); padding: .75rem 0 0;} 
+ul.socials {display: flex; justify-content: space-around;   transition: all 2s ease; margin: 0!important; width: 92%; color: #fff;}
+ul.socials li {align-items: center; text-align:center; line-height: 1.5rem; list-style:none}
+.socials li a, .socialss li a:visited {color:#fff;font-weight:bold;}
+.socials li a:hover, .socialss li a:focus {color: #81EF99}
+.social-wraps:hover .hidden{opacity: 1;}
+
+@media all and (min-width: 600px){}
+@media all and (min-width: 768px){}
+@media all and (min-width: 920px){.socials-wraps {}}
+@media all and (min-width: 1024px){.socials-wraps {width: 52vw;  min-width: 400px; max-width: 500px; }
+}
+/* device view orientation*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 1023px) and (orientation : landscape) {
+	#rotate-device {display:block;}
+}
+/* Video */
+.video-wrapper {height: 241px; display: flex; justify-content: flex-end;} 
+.video-container {width: 100%; min-height: 231px; background:transparent; clip-path: ellipse(40% 40% at 50% 50%);}
+.main-videos {position:relative;width:100%;height:100%;}
+video {object-fit : contain}
+
+/** Modals 
+.modalframe {border-radius: 5px; custor:pointer; transition: 0.3s}
+.modalframe:hover {opacity: 0.7}
+
+.modal {display: none; position: fixed; top: 17%; width:80%; height: 80%; overflow: auto; animation: animateTop .5s;  transform:translateY(-2%); background-color: rgba(255,255,255,.8);  margin: 2.25rem 0; padding: 2.5rem; box-shadow: 6px 6px 20px #000;}
+ /* Image for Modal 
+.modalImg {border: 1px solid #fff; display:block; width: 80%; height: auto; max-width: 43.75rem}
+
+#caption {margin: auto;display: block;width: 80%; max-width: 43.75rem;  text-align: center;  color: #ccc;  padding: .8rem 0;  height: 150px}
+
+.modal .close {position: absolute; top: .9rem; right: 1.75rem; color: #fff; font-size: 3rem; font-weight: bold; transition: 0.3s}
+.modal .close:hover, .modal .close:focus {color: #bbb; text-decoration: none; cursor: pointer;	-webkit-transform: rotate(90deg);  transform: rotate(90deg);}
+**/
+#myImg {
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 6;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 550px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+  
+/* CUSTOM1 */
+* {
+  box-sizing: border-box;
+}
+
+.row-pg {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-pg {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  flex-direction: column;
+  column-gap: 1.35rem;
+}
+
+.column img {
+  margin-top: 0.5rem;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Custom */
+@media screen and (max-width: 600px) {
+  .enap-gallery-img {padding: 5px}
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-pg {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    column-gap: 5px;
+    flex-direction: column;
+  }
+  .row-pg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-pg {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    column-gap: 10px;
+    flex-direction: column;
+  }
+  .row-pg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
+
+/* Modal Animation 
+.modalImg, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+*/
+/* The Close Button 
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+*/
+/* table styles */
+table,th,td{border:1px solid rgba(0,0,0,0.2)}
+table{width:100%}
+caption,th,td{font-weight:normal;text-align:left}
